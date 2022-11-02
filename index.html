@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CMJ Tierralta</title>
+    <link rel="shortcut icon" href="./images/favicon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/estilos.css" />
+
+    <meta name="theme-color" content="#2091F9" />
+
+    <meta name="title" content="Aprende CSS desde cero" />
+    <meta name="description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google." />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://aprendecss.com" />
+    <meta property="og:title" content="Aprende CSS desde cero" />
+    <meta property="og:description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google." />
+    <meta property="og:image" content="https://aprendecss.com/images/css.jpg" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://aprendecss.com/" />
+    <meta property="twitter:title" content="Aprende CSS desde cero" />
+    <meta property="twitter:description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google." />
+    <meta property="twitter:image" content="https://aprendecss.com/images/css.jpg" />
+</head>
+
+<body>
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <figure class="hero__logo">
+                    <img src="images/logo.svg" class="hero__huddle" />
+                </figure>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#inicio" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#acerca-de" class="nav__links">Acerca de</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#conocenos" class="nav__links">Conocenos</a>
+                </li>
+
+                <img src="./images/close.svg" class="nav__close" />
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img" />
+            </div>
+        </nav>
+
+        <section id="inicio" class="hero__container container">
+            <h1 class="hero__title">Tierralta Joven</h1>
+            <p class="hero__paragraph">
+                Trabajamos por la participación e inclusión de las ciudadanías
+                juveniles, a través de iniciativas innovadoras.
+            </p>
+            <a href="https://wa.me/573135138033" class="cta">Escribenos</a>
+        </section>
+    </header>
+
+    <main>
+        <section id="acerca-de" class="questions container">
+            <h2 class="subtitle">Conoce sobre los CMJ</h2>
+            <p class="questions__paragraph">
+                La información esta basada en el Estatuto de Ciudadania Juvenil. Ley
+                Estatutaria 1622 de 2013 modificada por la ley Estatutaria 1885 de
+                2018.
+            </p>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">
+                            ¿Qué son los Consejos Municipales de Juventud?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img" />
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">
+                            Los Consejos de Juventud son mecanismos autónomos de
+                            participación, concertación, vigilancia y control de la gestión pública, que permiten la
+                            interlocución de los jóvenes con la institucionalidad y el posicionamiento de los temas
+                            juveniles en la agenda pública, política, institucional y gubernamental.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">
+                            ¿Cúales son las funciones de los Consejos Municipales de
+                            Juventud?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img" />
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">
+                            Las funciones de los Consejos de Juventud están previstas en el
+                            artículo 34 del Estatuto de ciudadania Juvenil. <br /><br />
+
+                            - Actuar como instrumento de interlocución y concertación ante
+                            la administración en los temas juveniles. <br />
+
+                            - Establecer estrategias y procedimientos para que los jóvenes
+                            participen en el diseño de políticas dirigidas a la juventud.
+                            <br />
+
+                            - Participar en el desarrollo de agendas municipales,
+                            distritales, departamentales y nacionales de juventud. <br />
+
+                            - Ejercer veeduría y control social.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">
+                            ¿Quienes pueden ser Consejeros Municipales de Juventud?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img" />
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">
+                            - Jóvenes entre entre 14 y 28 años. <br />
+                            - Jóvenes que tengan domicilio en el territorio al cual aspira a
+                            representar. <br />
+                            - Jóvenes electos por listas independientes, por un movimiento o
+                            partido público o por un proceso y práctica organizativa
+                            juvenil. <br />
+                            - Jóvenes respresentantes de población campesina, victima y
+                            etnica (afrocolombianos, indigenas).
+                        </p>
+                    </div>
+                </article>
+            </section>
+        </section>
+
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledege__texts">
+                    <h2 class="subtitle">
+                        Descarga el ESTATUTO DE CIUDADANÍA JUVENIL: Ley Estatutaria 1622
+                        de 2013 modificada por la Ley Estatutaria 1885 de 2018
+                    </h2>
+                    <p class="knowledge__paragraph">
+                        El Estatuto de Ciudadanía Juvenil es el marco normativo dispuesto
+                        para la prevención, promoción, protección y garantía de los
+                        derechos de los jóvenes. Al estar consagrado en una Ley de la
+                        República, brinda un importante respaldo a las juventudes
+                        colombianas en el desarrollo de sus actividades
+                    </p>
+                    <a href="#" class="cta">Descargar</a>
+                </div>
+
+                <figure class="knowledge__picture">
+                    <img src="./images/estatuto.svg" class="knowledge__img" />
+                </figure>
+            </div>
+        </section>
+
+        <section id="conocenos" class="container about">
+            <h2 class="subtitle">Principios y Valores</h2>
+            <p class="about__paragraph"> El Consejo Municipal de Juventudes, es una manifestación de los valores
+                presentes en nuestra sociedad, con los cuales nacemos y debemos esforzarnos en ser un reflejo de ello,
+                defenderlos y difundirlos. </p> <br>
+
+            <div class="about__main">
+                <article class="about__icons">
+
+                    <h3 class="about__title">Principios</h3>
+                    <p class="about__paragrah listizq">
+                    <ul class="listizq">
+                        <li>Formar puntos de vista, expresarlos y hacer que las opiniones sean tomadas en cuenta.</li>
+                        <li>Inclusión social en la organización como principio básico y transversal.</li>
+                        <li>Apuesta por el desarrollo de las capacidades humanas e institucionales.</li>
+                        <li>Transparencia y buena gestión de los recursos y actividades.</li>
+                        <li>Cooperación y coordinación con otros agentes públicos y privados.</li>
+                    </ul>
+                    </p>
+                </article>
+
+
+
+                <article class="about__icons">
+                    <h3 class="about__title">Valores</h3>
+                    <p class="about__paragrah">
+                    <ul class="listizq">
+                        <li>Amor</li>
+                        <li>Compañerismo</li>
+                        <li>Equidad</li>
+                        <li>Honestidad</li>
+                        <li>Justicia</li>
+                        <li>Respeto</li>
+                        <li>Responsabilidad</li>
+                    </ul>
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="testimony">
+            <div class="testimony__container container">
+                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before" />
+
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">
+                            Mi nombre es Ana María González Vergara,
+                            <span class="testimony__course">Presidenta del CMJ.</span>
+                        </h2>
+                        <h4 class="testimony__review">
+                            Técnico en producción agropecuaria y tecnóloga en gestión de empresas agropecuarias.
+                        </h4>
+                        <p class="testimony__review">
+                        <h5>Bemposta regional caribe</h5>
+                        </p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/Fotografías/Ana María González Vergara.jpeg" class="testimony__img" />
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">
+                            Mi nombre es Bill Domico Palacio,
+                            <span class="testimony__course">Consejero de Juventud.</span>
+                        </h2>
+                        <h4 class="testimony__review">
+                            Técnico profesional en gestión de talento humano.
+                        </h4>
+                        <p class="testimony__review">
+                        <h5>Ayudarte Cuenta</h5>
+                        </p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/Fotografías/Bill Domico Palacio.jpeg" class="testimony__img" />
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">
+                            Mi nombre es Camilo Antonio Polo Pertuz,
+                            <span class="testimony__course">Consejero de Juventud.</span>
+                        </h2>
+                        <h4 class="testimony__review">
+                            Licenciado en Ciencias Sociales.
+                        </h4>
+                        <p class="testimony__review">
+                        <h5>Junta De Acción Comunal Pueblo Nuevo </h5>
+                        </p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/Fotografías/Camilo Antonio Polo Pertuz.jpeg" class="testimony__img" />
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="4">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">
+                            Mi nombre es Carolina Andrea Romero Flórez,
+                            <span class="testimony__course">Consejera de Juventud.</span>
+                        </h2>
+                        <h4 class="testimony__review">
+                            Procesos de seguridad y salud en el trabajo.
+                        </h4>
+                        <p class="testimony__review">
+                        <h5>Ayudarte Cuenta</h5>
+                        </p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/Fotografías/Carolina Andrea Romero Flórez.jpg" class="testimony__img" />
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="5">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">
+                            Mi nombre es Darwin Antonio Ruiz Osorio,
+                            <span class="testimony__course">Consejero de Juventud.</span>
+                        </h2>
+                        <h4 class="testimony__review">
+                            Lic. en Informática y Med. Aud.
+                        </h4>
+                        <p class="testimony__review">
+                        <h5>Ayudarte Cuenta</h5>
+                        </p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/Fotografías/Darwin Antonio Ruiz Osorio.jpg" class="testimony__img" />
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="6">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">
+                            Mi nombre es Emerson David Borja Peña,
+                            <span class="testimony__course">Consejero de Juventud.</span>
+                        </h2>
+                        <h4 class="testimony__review">
+                            Bachiller.
+                        </h4>
+                        <p class="testimony__review">
+                        <h5>Bemposta regional caribe.</h5>
+                        </p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/Fotografías/Emerson David Borja Peña.jpeg" class="testimony__img" />
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="7">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">
+                            Mi nombre es Jesús David Geliz Serpa,
+                            <span class="testimony__course">Consejero de Juventud.</span>
+                        </h2>
+                        <h4 class="testimony__review">
+                            Estudiante grado 11.
+                        </h4>
+                        <p class="testimony__review">
+                        <h5>Ayudarte Cuenta</h5>
+                        </p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/Fotografías/Jesús David Geliz Serpa.jpg" class="testimony__img" />
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="8">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">
+                            Mi nombre es Jhonnatan Camilo Córdoba Chaverra,
+                            <span class="testimony__course">Consejero de Juventud.</span>
+                        </h2>
+                        <h4 class="testimony__review">
+                            Abogado Judicante.
+                        </h4>
+                        <p class="testimony__review">
+                        <h5>Curul Especial: Población Afrodescendiente</h5>
+                        </p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/Fotografías/Jhonnatan Camilo Córdoba Chaverra.jpeg" class="testimony__img" />
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="9">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">
+                            Mi nombre es José Daniel Villalba Urango,
+                            <span class="testimony__course">Consejero de Juventud.</span>
+                        </h2>
+                        <h4 class="testimony__review">
+                            Técnico en Producción musical.
+                        </h4>
+                        <p class="testimony__review">
+                        <h5>Curul Especial: Población Victima</h5>
+                        </p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/Fotografías/José Daniel Villalba Urango.jpeg" class="testimony__img" />
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="10">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">
+                            Mi nombre es Juan Pablo Pacheco Cabrales,
+                            <span class="testimony__course">Consejero de Juventud.</span>
+                        </h2>
+                        <h4 class="testimony__review">
+                            Ingeniero Civil .
+                        </h4>
+                        <p class="testimony__review">
+                        <h5>Partido Liberal Colombiano </h5>
+                        </p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/Fotografías/Juan Pablo Pacheco Cabrales.jpg" class="testimony__img" />
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="11">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">
+                            Mi nombre es Katy Yulieth García Martínez,
+                            <span class="testimony__course">2° Viceprecidenta CMJ.</span>
+                        </h2>
+                        <h4 class="testimony__review">
+                            Ingeniera Ambiental .
+                        </h4>
+                        <p class="testimony__review">
+                        <h5>Partido Conservador Colombiano</h5>
+                        </p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/Fotografías/Katy Yulieth García Martínez.jpeg" class="testimony__img" />
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="12">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">
+                            Mi nombre es Manuel salvador Gutiérrez Pérez,
+                            <span class="testimony__course">Respresentante al CDJ.</span>
+                        </h2>
+                        <h4 class="testimony__review">
+                            Ingeniero Civil.
+                        </h4>
+                        <p class="testimony__review">
+                        <h5>Partido Alianza Verde</h5>
+                        </p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/Fotografías/Manuel salvador Gutiérrez Pérez.jpeg" class="testimony__img" />
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="13">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">
+                            Mi nombre es Sebastián Andrés Alarcón González,
+                            <span class="testimony__course">Consejero de Juventud.</span>
+                        </h2>
+                        <h4 class="testimony__review">
+                            Bachiller.
+                        </h4>
+                        <p class="testimony__review">
+                        <h5>Curul Especial: Población Campesina</h5>
+                        </p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/Fotografías/Sebastián Andrés Alarcón González.jpeg" class="testimony__img" />
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="14">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">
+                            Mi nombre es Willinton Domico Domico,
+                            <span class="testimony__course">Viceprecidente CMJ.</span>
+                        </h2>
+                        <h4 class="testimony__review">
+                            Emprendedor.
+                        </h4>
+                        <p class="testimony__review">
+                        <h5>Curul Especial: Población Indígena</h5>
+                        </p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/Fotografías/Willinton Domico Domico.jpeg" class="testimony__img" />
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="15">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">
+                            Mi nombre es Yessika Patricia Vergara Pérez,
+                            <span class="testimony__course">Secretaria CMJ.</span>
+                        </h2>
+                        <h4 class="testimony__review">
+                            Est. Psicología
+                        </h4>
+                        <p class="testimony__review">
+                        <h5>Ayudarte Cuenta</h5>
+                        </p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/Fotografías/Yessika Patricia Vergara Pérez.jpeg" class="testimony__img" />
+                    </figure>
+                </section>
+
+                <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="contacto" class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">CMJ TIerralta</h2>
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="#inicio" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#acerca-de" class="nav__links">Acerca de</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#conocenos" class="nav__links">Conocenos</a>
+                    </li>
+                </ul>
+            </nav>
+
+            
+                <h2 class="contacto">info.cmjtierralta@gmail.com</h2>
+                <h2 class="contacto">313 513 8033</h2>
+
+                
+            
+        </section>
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="https://www.facebook.com/cmjtierraltacordoba" class="footer__icons"><img src="./images/facebook.svg" class="footer__img" /></a>
+                <a href="https://www.instagram.com/cmjtierralta" class="footer__icons"><img src="./images/instagram.svg" class="footer__img" /></a>
+            </div>
+
+            <h3 class="footer__copyright">
+                &copy; CMJ Tierralta
+            </h3>
+        </section>
+    </footer>
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>
